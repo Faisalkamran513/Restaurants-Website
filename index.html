@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="nav-container">
+            <h2>Tasty Restaurants</h2>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+                  
+
+        </div>
+    </nav>
+    
+
+    <section id="hero">
+        <h1>Welcome to Tasty Restaurants</h1>
+        <p class="tagline">Experience the finest flavors in town</p>
+        <button>Explore Menu</button>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>At Tasty Restaurants, we are passionate about serving delicious, high-quality food made from the freshest ingredients. Our team of expert chefs creates culinary masterpieces that delight the senses and bring people together. Whether you're looking for a cozy dinner with family or a special celebration, we have the perfect ambiance and menu to make your experience unforgettable.</p>
+            <p>Established in 2020, we have been committed to excellence in every dish we serve. Come join us and discover why Tasty Restaurants is the go-to place for food lovers in town.</p>
+        </div>
+    </section>
+    <section id="Gallery">
+        <div class="container">
+            <h2>Our Famous Dishes</h2>
+            <div class="gallery">
+                <div class="dish">
+                    <img src="Black Truffle Risotto.jpg" alt="Black Truffle Risotto">
+                    <p>Indulge in our creamy Black Truffle Risotto, infused with the earthy aroma of premium black truffles and finished with Parmesan cheese.</p>
+                    <p class="price">$45</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+                <div class="dish">
+                    <img src="icecream.jpg" alt="Chocolate Soufflé">
+                    <p>Experience the decadence of our Chocolate Soufflé, a light and airy dessert with a rich chocolate center that melts in your mouth.</p>
+                    <p class="price">$25</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+                <div class="dish">
+                    <img src="pizza.jpg" alt="Lobster Thermidor">
+                    <p>Savor the elegance of Lobster Thermidor, featuring succulent lobster meat in a creamy brandy sauce, baked to perfection.</p>
+                    <p class="price">$65</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+                <div class="dish">
+                    <img src="Seared Foie Gras.j . bzpg" alt="Seared Foie Gras">
+                    <p>Delight in our Seared Foie Gras, pan-seared to a golden crisp and served with a reduction of balsamic vinegar and figs.</p>
+                    <p class="price">$55</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+                <div class="dish">
+                    <img src="Truffle Arancini.jpg" alt="Truffle Arancin">
+                    <p>Enjoy our Truffle Arancini, crispy risotto balls filled with truffle-infused risotto and served with a truffle aioli.</p>
+                    <p class="price">$35</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+                <div class="dish">
+                    <img src="Wagyu Beef Tenderloin.jpg" alt="Wagyu Beef Tenderloin">
+                    <p>Treat yourself to Wagyu Beef Tenderloin, marbled to perfection and grilled to your desired doneness, paired with seasonal vegetables.</p>
+                    <p class="price">$75</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="placement">
+        <div class="container">
+            <h2>Restaurant Placement</h2>
+            <div class="placement-content">
+                <div class="placement-image">
+                    <img src="placement.jpg" alt="Restaurant Placement">
+                </div>
+                <div class="placement-description">
+                    <p>Discover the perfect locations for our Tasty Restaurants across the city. Each location is carefully selected to provide an exceptional dining experience, combining ambiance, convenience, and accessibility.</p>
+                    <p>Our restaurants are situated in prime spots, ensuring easy access for locals and visitors alike. Whether you're in the bustling city center or exploring nearby neighborhoods, find a Tasty Restaurant near you.</p>
+                    <p>Visit us at our various locations and enjoy the same high-quality food and service that has made Tasty Restaurants a favorite destination.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="booking-section">
+  <div class="booking-container">
+    <h2>Book a Table</h2>
+    <p>Reserve your table for a special moment</p>
+
+    <form class="booking-form">
+      
+      <div class="form-group">
+        <label>Select Date</label>
+        <input type="date" required>
+      </div>
+
+      <div class="form-group">
+        <label>Select Day</label>
+        <select required>
+          <option value="">Choose Day</option>
+          <option>Monday</option>
+          <option>Tuesday</option>
+          <option>Wednesday</option>
+          <option>Thursday</option>
+          <option>Friday</option>
+          <option>Saturday</option>
+          <option>Sunday</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label>Number of People</label>
+        <input type="number" min="1" max="50" placeholder="How many people?" required>
+      </div>
+
+      <div class="form-group">
+        <label>Event Type</label>
+        <select required>
+          <option value="">Select Event</option>
+          <option>Casual Dining</option>
+          <option>Birthday Party</option>
+          <option>Anniversary</option>
+          <option>Business Meeting</option>
+          <option>Family Dinner</option>
+          <option>Other</option>
+        </select>
+      </div>
+
+      <button type="submit">Book Now</button>
+
+    </form>
+  </div>
+</section>
+<section class="chef-section">
+  <div class="chef-container">
+    
+    <h2>Meet Our Chefs</h2>
+    <p class="chef-subtitle">
+      Our professional team delivers taste, quality, and passion in every dish
+    </p>
+
+    <div class="chef-grid">
+
+      <div class="chef-card">
+        <img src="chef1.jpg" alt="Head Chef">
+        <h3>Chef John Martin</h3>
+        <span>Head Chef</span>
+        <p>15+ years of experience in international cuisine.</p>
+      </div>
+
+      <div class="chef-card">
+        <img src="chef2.jpg" alt="Sous Chef">
+        <h3>Chef Sarah Lee</h3>
+        <span>Sous Chef</span>
+        <p>Expert in continental and Italian dishes.</p>
+      </div>
+
+      <div class="chef-card">
+        <img src="chef3.jpg" alt="Pastry Chef">
+        <h3>Chef Alex Brown</h3>
+        <span>Pastry Chef</span>
+        <p>Specialist in desserts and bakery items.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+<section class="review-section">
+  <div class="review-container">
+    <h2>What Our Customers Say</h2>
+    <p class="review-subtitle">
+      Real reviews from our happy customers
+    </p>
+
+    <div class="review-grid">
+
+      <div class="review-card">
+        <p>
+          “Amazing food and great service. The ambience was perfect and the
+          staff was very professional.”
+        </p>
+        <h4>— Ahmed Khan</h4>
+        <span>★★★★★</span>
+      </div>
+
+      <div class="review-card">
+        <p>
+          “Best dining experience in the city. Highly recommended for family
+          dinners and events.”
+        </p>
+        <h4>— Sarah Ali</h4>
+        <span>★★★★★</span>
+      </div>
+
+      <div class="review-card">
+        <p>
+          “Fresh food, quick service and excellent taste. We will definitely
+          come again.”
+        </p>
+        <h4>— Daniel Smith</h4>
+        <span>★★★★☆</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+  <footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-box">
+      <h3>Restaurant Name</h3>
+      <p>
+        Premium dining experience with fresh ingredients and world-class chefs.
+      </p>
+    </div>
+
+    <div class="footer-box">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Booking</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-box">
+      <h4>Contact Info</h4>
+      <p>📍 Main Street, Karachi</p>
+      <p>📞 +92 300 1234567</p>
+      <p>✉ info@restaurant.com</p>
+    </div>
+
+    <div class="footer-box">
+      <h4>Opening Hours</h4>
+      <p>Mon – Fri: 12 PM – 11 PM</p>
+      <p>Sat – Sun: 1 PM – 12 AM</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 Restaurant Name. All Rights Reserved.</p>
+  </div>
+</footer>
+
+
+
+</body>
+</html>
